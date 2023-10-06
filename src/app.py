@@ -1,5 +1,6 @@
 from flask import Flask, render_template
 import os
+import database as db
 
 #1. Setting template directory
 #The template_dir variable is assigned the absolute path of the directory containing the current script (__file__).
